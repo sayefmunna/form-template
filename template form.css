@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	background-image:url("photo 3.webp");
+	width:800px;
+	height:600px;
+	margin:20px 70px;
+	position:relative;
+}
+ul li{
+	display:inline-block;
+	position:relative;
+	
+	top:10px;
+	left:470px;
+	padding:12px;
+}
+ul li a{
+	text-decoration:none;
+	color:orange;
+}
+ul li a:hover{
+	color: #d41ca9
+	
+}
+.heading{
+	position:relative;
+	top:15px;
+	left:13px;
+	color:#ffbf00;
+	top:0px;
+}
+.form{
+	position:absolute;
+	width:250px;
+	height:50%;
+	top:25%;
+	left:35%;
+	background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+	border-radius:10px;
+	padding:25px;
+	
+}
+.form h2{
+	text-align:center;
+	width:220px;
+	color:orange;
+	background:white;
+	padding:8px;
+	border-radius:10px;
+	margin:2px;
+	border:1px solid  #d4341c;
+}
+.form input{
+	text-align:center;
+	width:240px;
+	height:28px;
+	background-color:transparent;
+	color:white;
+	border:1px solid orange;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	
+}
+button{
+	align-items:center;
+	width:240px;
+	height:39px;
+	background-color:orange;
+	border-radius:10px;
+	margin-top:10px;
+	cursor:pointer;
+	transition:0.4s ease;
+	font-weight:bold;
+	font-size:16px;
+	border:1px solid #DAF7A6;
+}
+button:hover{
+	background-color:white;
+	color:red;
+}
+button a:{
+	color:green;
+	text-decoration:none;
+	font-weight:bold;
+}
+.form p{
+	text-align:center;
+	padding:10px;
+	color:white;
+}
+.form a{
+	color:red;
+	text-decoration:none;
+}
+.icon{
+	text-align:center;
+	color:white;
+	padding-left:14px;
+	padding-top:5px;
+	font-size:24px;
+}
+.icon a{
+	color:white;
+	padding:3px;
+	transition:0.4s ease;
+}
+.icon a:hover{
+	color:orange;
+}
